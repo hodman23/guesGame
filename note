@@ -1,0 +1,43 @@
+// let winAuddio = new Audio ('win.mp3');
+// let failAudio = new Audio ('fail.mp3');
+// let nearFail = new Audio ("nearfail.mp3");
+// var count = 0;
+
+// let secretNumber = Math.trunc(Math.random()*20)+1;
+
+//  const checkBtn = document.querySelector('.btncheck');
+
+// checkBtn.addEventListener('click', function(){
+// count++;
+// let guessNumber = Number(document.querySelector('.guess').value);
+
+// if(!guessNumber){
+// document.querySelector(".message").textContent= "⛔ No Number!";
+// }
+// else if (count === 5 &&  guessNumber === secretNumber){
+//     document.querySelector(".message").textContent ="🎉 Correct Number";
+//     winAuddio.play();
+//     document.querySelector(".number").textContent = secretNumber;
+//     checkBtn.disabled = true;
+//     document.querySelector("body").style.backgroundColor = "#60b347"
+// }
+// else if(count === 5 && guessNumber !== secretNumber ){
+//     failAudio.play();
+//     checkBtn.disabled = true;
+//     document.querySelector(".guess").value ="";
+//     document.querySelector(".number").textContent = secretNumber;
+//     return (document.querySelector(".message").innerHTML= "<h4> NO Attempt letf try Again😭</h4>");
+// }
+
+// else if (guessNumber!== secretNumber){
+// document.querySelector(".message").textContent=
+// guessNumber > secretNumber ? '🆙Too hight! ':"⬇️Too Low";
+// document.querySelector('.guess').value ="";
+// }
+// else if (guessNumber!== secretNumber){
+// if(count === 4){
+//     document.querySelector('.guess').value ="";
+//     nearFail.play();
+// }
+// }
+// })
